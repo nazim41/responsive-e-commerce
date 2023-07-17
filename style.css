@@ -1,0 +1,282 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    padding:50px 180px;
+    height: 100vh;
+    width: auto;
+
+}
+
+nav h1{
+    color: #3A3A3A;
+font-size: 24px;
+font-weight: 700;
+l
+}
+
+
+
+
+.nabvar{
+    display: flex;
+    justify-content: space-between;
+}
+.navlist ul {
+    display: flex;
+}
+.navlist ul li{
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.navlist ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.header-banner{
+    display: flex;
+    gap: 50px;
+    margin-right: 50px;
+    align-items: center;
+}
+ .bbt,.fature button, .header-text button{
+    border-radius: 41px;
+background: #E02C6D;
+border: none;
+padding: 13px 24px;
+color: white;
+font-weight: 400;
+
+}
+.header-img{
+    background-image: url('images/Circle%20design.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sponsor{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+/* Header sesction complete. */
+main{
+    padding: 50px 150px;
+}
+main> h1{
+    text-align: center;
+    font-weight: 800;
+}
+
+.item-container{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-template-rows: repeat(3,1fr);
+grid-gap: 30px;
+}
+
+
+
+.bbt{
+    float: right;
+    margin-top: 30px;
+}
+
+
+
+
+
+.item{
+    height:450px;
+    width: 320px;
+    padding: 15px;
+    background-color: #FFF;
+    border-radius: 5px;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+}
+.item img{
+    height: 300px;
+    width: 280px;
+}
+.item p{
+    font-size: small;
+}
+.item p> span{
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.random{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 60px;
+    margin-left: 200px;
+
+}
+.image img{
+    width: 300px;
+    height: 270px;
+}
+
+.fature{
+    width: 600px;
+}
+.fature p{
+    width: 400px;
+}
+
+footer{
+    height: 400px;
+    width: auto;
+    background-color: #0A0826;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-div{
+    width:300px;
+}
+
+
+
+
+
+
+
+/* this is the responsive media query */
+
+@media screen and (max-width: 576px){
+
+header{
+    padding: 20px;
+    height: 210vh;
+}
+
+.nabvar{
+flex-direction: column;
+}
+
+.navlist ul {
+    flex-direction: column;
+}
+
+.header-banner{
+    flex-direction: column-reverse;
+    padding: 20px;
+}
+
+.header-text{
+    width: auto;
+}
+
+.header-img{
+    width: auto;
+    background-size: cover;
+}
+
+
+.header-img img{
+    width: 300px;
+}
+
+.sponsor{
+    flex-direction: column;
+    margin-top: 60px;
+
+}
+.sponsor >img{
+    margin-top: 20px;
+}
+
+
+/* this is the endingofthe header  */
+main{
+    padding: 20px 20px;
+}
+.item-container{
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 20px;
+}
+
+.random{
+    flex-direction: column-reverse;
+  margin: 0px;
+  padding: auto;
+  margin-top: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.fature{
+    width: auto;
+}
+.fature button{
+    text-align: center;
+}
+
+
+.sponnsor{
+    margin-top: 0px;
+}
+.sponsor img {
+    margin: 0px;
+}
+
+
+.bbt{
+    margin-bottom: 60px;
+}
+
+
+
+.fature{
+    width: auto;
+}
+
+.fature p {
+    width: auto;
+}
+
+.image {
+    padding-left: 30px;
+    width: auto;
+    text-align: center;
+    margin: 0px;
+
+}
+
+
+
+footer {
+    padding-bottom: 40px;
+    height: 500px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+}
